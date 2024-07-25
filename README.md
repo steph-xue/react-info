@@ -8,5 +8,5 @@ The react info project is a static website built using React and JSX (an XML-lik
 - Allows the user to login to their account
 &nbsp;
 
-![Page](/react-info/images/page.png?raw=true "Page")
+![Page](./images/page.png?raw=true "Page")
 <br></br>
