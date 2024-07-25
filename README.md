@@ -1,5 +1,5 @@
 # React Info Project
-The react info project is a static web application built using React. The web application displays some fun facts about React.
+The react info project is a static web application built using the front-end JavaScript library, React. The web application displays some fun facts about React.
 <br></br>
 
 ![Page](./images/page.png?raw=true "Page")
@@ -21,12 +21,12 @@ The react info project is a static web application built using React. The web ap
 - To build out the application for deployment use “npm run build”
 - To test out the preview before deploying the application use “npm run preview”
 - Deploy the application on your server of choice:
-- Netlify using the command line
-  - Install the Netlify CLI using “npm install -g netlify-cli”
-  - Create a new site in Netlify using “ntl init”
-  - Deploy to a unique preview URL using “ntl deploy”
-  - The Netlify CLI will share with you a preview URL to inspect. When you are ready to go into production, use the prod flag to deploy the site into production “ntl deploy --prod”
-- Netlify using github
-  - Import the project to netlify
-  - Choose the branch, output directory, and set up environment variables if applicable and click deploy
+  - Netlify using the command line
+    - Install the Netlify CLI using “npm install -g netlify-cli”
+    - Create a new site in Netlify using “ntl init”
+    - Deploy to a unique preview URL using “ntl deploy”
+    - The Netlify CLI will share with you a preview URL to inspect. When you are ready to go into production, use the prod flag to deploy the site into production “ntl deploy --prod”
+  - Netlify using github
+    - Import the project to netlify
+    - Choose the branch, output directory, and set up environment variables if applicable and click deploy
 
