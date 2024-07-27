@@ -3,6 +3,7 @@ The react info project is a static web application built using the front-end Jav
 <br></br>
 
 Can access on: https://react-info-site-sx.netlify.app/
+<br></br>
 ![Page](./images/page.png?raw=true "Page")
 <br></br>
 
