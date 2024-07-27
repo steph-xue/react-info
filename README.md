@@ -2,6 +2,7 @@
 The react info project is a static web application built using the front-end JavaScript library, React. The web application displays some fun facts about React.
 <br></br>
 
+Can access on: https://react-info-site-sx.netlify.app/
 ![Page](./images/page.png?raw=true "Page")
 <br></br>
 
