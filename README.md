@@ -23,9 +23,9 @@ Dark Mode:
 - The web application can be run on your local server by typing in the command line 'npm run dev'
 
 ## How to Deploy
-- To build out the website for deployment use “npm run build”
+- To build out the web application for deployment use “npm run build”
 - To test out the preview before deploying the application use “npm run preview”
-- Deploy the website on your server of choice:
+- Deploy the application on your server of choice:
   - Netlify using the command line
     - Install the Netlify CLI using “npm install -g netlify-cli”
     - Create a new site in Netlify using “ntl init”
