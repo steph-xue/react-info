@@ -1,10 +1,13 @@
 # React Info Project
-The react info project is a static website built using the front-end JavaScript library, React. The website displays some fun facts about React.
+The react info project is a dynamic website built using the front-end JavaScript library, React. The website displays some fun facts about React. The user can use the toggle mode button on the top right hand side to switch between light and dark modes.
 <br></br>
 
 Can access on: https://react-info-site-sx.netlify.app/
 <br></br>
-![Page](./images/page.png?raw=true "Page")
+Light Mode:
+![Light Mode](./images/light-mode.png?raw=true "Light Mode")
+Dark Mode:
+![Dark Mode](./images/dark-mode.png?raw=true "Dark Mode")
 <br></br>
 
 ## Languages & Frameworks
