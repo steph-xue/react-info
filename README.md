@@ -21,7 +21,7 @@ Dark Mode:
 - Install the latest version of node.js (JavaScript runtime server)
     - Check the version using the command
         - ```node --version```
-- - Install the latest version of npm (JavaScript package manager)
+- Install the latest version of npm (JavaScript package manager)
     - Check the version using the command
         - ```npm --version```
 - Clone the repository from github by typing in the command line
