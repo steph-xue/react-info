@@ -16,7 +16,6 @@ Dark Mode:
 - Vite was also used as a build tool to create the web application
   - Vite is a local development server that has support for frameworks like React and Vue.js, and programming languages like JavaScript and TypeScript 
 
-
 ## How to Run Locally
 - Install the latest version of node.js (JavaScript runtime server)
     - Check the version using the command
