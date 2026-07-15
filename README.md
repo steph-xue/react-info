@@ -1,6 +1,6 @@
 # React Info
 
-A single page website built with React that displays a short list of fun facts about the React library itself. A toggle in the navigation bar lets users switch between light and dark mode at any time.
+A web application built with React that displays a short list of fun facts about the React library itself. A toggle in the navigation bar lets users switch between light and dark mode at any time.
 
 <br>
 
@@ -16,7 +16,7 @@ A single page website built with React that displays a short list of fun facts a
 
 ## Overview
 
-This project is a small, focused website built to practice component structure and state management in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface is organized into two components, a navigation bar and a main content area, both of which respond to a shared dark mode setting that is controlled from a single toggle. The main content area lists a handful of facts about React itself, covering details like its original release date, its creator, and how widely it is used today.
+This project is a small, focused web application built to practice component structure and state management in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface is organized into two components, a navigation bar and a main content area, both of which respond to a shared dark mode setting that is controlled from a single toggle. The main content area lists a handful of facts about React itself, covering details like its original release date, its creator, and how widely it is used today.
 
 <br>
 
@@ -44,7 +44,7 @@ The main content area displays a short heading and a list of facts about React, 
 
 ## How It Works
 
-The application is built around two components, a navigation bar and a main content area, both rendered from a single root component. Dark mode is tracked as a single piece of state in the root component and passed down to both the navigation bar and the main content area, so clicking the toggle updates the appearance of the entire page at once rather than each section managing its own state independently. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere.
+The application is built around two components, a navigation bar and a main content area, both rendered from a single root component. Dark mode is tracked as a single piece of state in the root component and passed down to both the navigation bar and the main content area, so clicking the toggle updates the appearance of the entire page at once rather than each section managing its own state independently. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
 
 <br>
 
