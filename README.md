@@ -2,8 +2,6 @@
 
 A single page website built with React that displays a short list of fun facts about the React library itself. A toggle in the navigation bar lets users switch between light and dark mode at any time.
 
-**[View Live Demo](https://react-info-site-sx.netlify.app/)**
-
 <br>
 
 ## Table of Contents
