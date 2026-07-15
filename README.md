@@ -44,7 +44,7 @@ The main content area displays a short heading and a list of facts about React, 
 
 ## How It Works
 
-The application is built around two components, a navigation bar and a main content area, both rendered from a single root component. Dark mode is tracked as a single piece of state in the root component and passed down to both the navigation bar and the main content area, so clicking the toggle updates the appearance of the entire page at once rather than each section managing its own state independently. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere, including the live version hosted on Netlify.
+The application is built around two components, a navigation bar and a main content area, both rendered from a single root component. Dark mode is tracked as a single piece of state in the root component and passed down to both the navigation bar and the main content area, so clicking the toggle updates the appearance of the entire page at once rather than each section managing its own state independently. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere.
 
 <br>
 
