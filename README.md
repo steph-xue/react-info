@@ -1,6 +1,6 @@
 # React Info
 
-A web application built with React that displays a short list of fun facts about the React library itself. A toggle in the navigation bar lets users switch between light and dark mode at any time.
+A web application that displays a short list of fun facts about the React library. A toggle in the navigation bar lets users switch between light and dark mode at any time.
 
 <br>
 
