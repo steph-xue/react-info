@@ -1,32 +1,95 @@
-# React Info Project
-The react info project is a dynamic website built using the front-end JavaScript library, React. The website displays some fun facts about React. The user can use the toggle mode button on the top right hand side to switch between light and dark modes.
-<br></br>
+# React Info
 
-Can access on: https://react-info-site-sx.netlify.app/
-<br></br>
-Light Mode:
-![Light Mode](./images/light-mode.png?raw=true "Light Mode")
-Dark Mode:
-![Dark Mode](./images/dark-mode.png?raw=true "Dark Mode")
-<br></br>
+A single page website built with React that displays a short list of fun facts about the React library itself. A toggle in the navigation bar lets users switch between light and dark mode at any time.
 
-## Languages & Frameworks
-- The react info project was created using React, a front-end JavaScript web libary
-  - React uses JSX, which is an XML-like extension to the JavaScript language that lets you write HTML-like markup inside a JavaScript file
-- Vite was also used as a build tool to create the web application
-  - Vite is a local development server that has support for frameworks like React and Vue.js, and programming languages like JavaScript and TypeScript 
+**[View Live Demo](https://react-info-site-sx.netlify.app/)**
 
-## How to Run Locally
-- Install the latest version of node.js (JavaScript runtime server)
-    - Check the version using the command
-        - ```node --version```
-- Install the latest version of npm (JavaScript package manager)
-    - Check the version using the command
-        - ```npm --version```
-- Clone the repository from github by typing in the command line
-    - HTTPS: ```git clone https://github.com/steph-xue/react-info.git```
-    - SSH: ```git clone git@github.com:steph-xue/react-info.git```
-- Install any dependencies by using the command
-    - ```npm install```
-- The web application can be run on your local server by typing the command
-    - ```npm run dev```
+<br>
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How It Works](#how-it-works)
+- [Getting Started](#getting-started)
+- [Future Improvements](#future-improvements)
+
+<br>
+
+## Overview
+
+This project is a small, focused website built to practice component structure and state management in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface is organized into two components, a navigation bar and a main content area, both of which respond to a shared dark mode setting that is controlled from a single toggle. The main content area lists a handful of facts about React itself, covering details like its original release date, its creator, and how widely it is used today.
+
+<br>
+
+## Features
+
+### Fun Facts Display
+The main content area displays a short heading and a list of facts about React, including when it was released, who created it, and how widely it is used today. A toggle switch in the navigation bar lets users switch the entire page between light and dark mode, updating both the navigation bar and the main content area at the same time for a consistent look across the page.
+
+<p align="center"><b>Light Mode</b></p>
+<p align="center"><img src="./images/light-mode.png?raw=true" alt="Light Mode" width="700"></p>
+
+<p align="center"><b>Dark Mode</b></p>
+<p align="center"><img src="./images/dark-mode.png?raw=true" alt="Dark Mode" width="700"></p>
+
+<br>
+
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| Frontend | React, JavaScript, HTML, CSS |
+| Build Tool | Vite |
+
+<br>
+
+## How It Works
+
+The application is built around two components, a navigation bar and a main content area, both rendered from a single root component. Dark mode is tracked as a single piece of state in the root component and passed down to both the navigation bar and the main content area, so clicking the toggle updates the appearance of the entire page at once rather than each section managing its own state independently. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere, including the live version hosted on Netlify.
+
+<br>
+
+## Getting Started
+
+Follow the steps below to set up and run the application on your own machine.
+
+**Prerequisites**
+
+Make sure Node.js and npm are installed before you begin. You can check both by running the commands below, which should each print a version number.
+```bash
+node --version
+npm --version
+```
+
+**1. Clone the repository**
+
+This downloads a copy of the project to your computer and moves you into the project folder.
+```bash
+git clone https://github.com/steph-xue/react-info.git
+cd react-info
+```
+
+**2. Install the dependencies**
+
+This installs React and everything else the project needs to run.
+```bash
+npm install
+```
+
+**3. Start the development server**
+
+This runs the application locally with Vite.
+```bash
+npm run dev
+```
+
+Once the server is running, open the local URL shown in the terminal to start using the application.
+
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Additional categories of facts beyond React itself
+- Saving the user's mode preference so it persists between visits
+- Smooth transition animations when switching between light and dark mode
