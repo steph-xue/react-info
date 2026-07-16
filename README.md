@@ -24,7 +24,7 @@
 
 ## Overview
 
-This project presents a collection of facts about React, including its original release date, creator, and role in modern web development, while allowing users to switch between light and dark mode at any time. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. The interface includes a navigation bar and main content area, with the theme toggle managed through shared React state so the selected mode is applied consistently across the application.
+This project presents a collection of facts about React, including its original release date, creator, and role in modern web development, while allowing users to switch between light and dark mode at any time. Built with React, JavaScript, HTML, and CSS using Vite, the interface includes a navigation bar and main content area, with the theme toggle managed through shared React state so the selected mode is applied consistently across the application.
 
 <br>
 
