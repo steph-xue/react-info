@@ -3,11 +3,11 @@
 </h1>
 
 <h4 align="center">
-  A web application that displays a short list of fun facts about the React library. A toggle in the navigation bar lets users switch between light and dark mode at any time.
+  A web application displaying fun facts about the React library, with a toggle to switch between light and dark mode.
 </h4>
 
 <p align="center">
-  <img src="./images/light-mode.png?raw=true" alt="Light Mode" width="400">
+  <img src="./images/light-mode.png?raw=true" alt="Light Mode" width="450">
 </p>
 
 <br>
