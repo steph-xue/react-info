@@ -16,7 +16,7 @@ A web application that displays a short list of fun facts about the React librar
 
 ## Overview
 
-This project is a web application that presents a collection of facts about React, including its original release date, its creator, and its widespread use in modern web development. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface includes a navigation bar and main content area with a light and dark mode toggle controlled through shared state.
+This project presents a collection of facts about React, including its original release date, its creator, and its role in modern web development. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. The interface includes a navigation bar and main content area, with a light and dark mode toggle managed through shared React state.
 
 <br>
 
