@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  A web application displaying fun facts about the React library, with a toggle to switch between light and dark mode.
+  A web application displaying fun facts about the React library with a light/dark mode toggle.
 </h4>
 
 <p align="center">
