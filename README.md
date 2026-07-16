@@ -9,8 +9,8 @@ A web application that displays a short list of fun facts about the React librar
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -48,6 +48,14 @@ The application is built around two components, a navigation bar and a main cont
 
 <br>
 
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Additional categories of facts beyond React itself
+- Saving the user's mode preference so it persists between visits
+- Smooth transition animations when switching between light and dark mode
+  
+<br>
+
 ## Getting Started
 
 Follow the steps below to set up and run the application on your own machine.
@@ -83,11 +91,3 @@ npm run dev
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- Additional categories of facts beyond React itself
-- Saving the user's mode preference so it persists between visits
-- Smooth transition animations when switching between light and dark mode
