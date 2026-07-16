@@ -1,6 +1,14 @@
-# React Info
+<h1 align="center">
+  React Info
+</h1>
 
-A web application that displays a short list of fun facts about the React library. A toggle in the navigation bar lets users switch between light and dark mode at any time.
+<h4 align="center">
+  A web application that displays a short list of fun facts about the React library. A toggle in the navigation bar lets users switch between light and dark mode at any time.
+</h4>
+
+<p align="center">
+  <img src="./images/light-mode.png?raw=true" alt="Light Mode" width="400">
+</p>
 
 <br>
 
@@ -16,7 +24,7 @@ A web application that displays a short list of fun facts about the React librar
 
 ## Overview
 
-This project presents a collection of facts about React, including its original release date, its creator, and its role in modern web development. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. The interface includes a navigation bar and main content area, with a light and dark mode toggle managed through shared React state.
+This project presents a collection of facts about React, including its original release date, creator, and role in modern web development, while allowing users to switch between light and dark mode at any time. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. The interface includes a navigation bar and main content area, with the theme toggle managed through shared React state so the selected mode is applied consistently across the application.
 
 <br>
 
