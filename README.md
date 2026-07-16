@@ -16,7 +16,7 @@ A web application that displays a short list of fun facts about the React librar
 
 ## Overview
 
-This project is a web application built to practice component structure and state management in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface is organized into two components, a navigation bar and a main content area, both of which respond to a shared dark mode setting that is controlled from a single toggle. The main content area lists a handful of facts about React itself, covering details like its original release date, its creator, and how widely it is used today.
+This project is a web application that presents a collection of facts about React, including its original release date, its creator, and its widespread use in modern web development. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. The interface includes a navigation bar and main content area with a light and dark mode toggle controlled through shared state.
 
 <br>
 
