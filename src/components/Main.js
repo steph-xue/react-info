@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 
 function Main(props) {
     return (
@@ -14,5 +15,9 @@ function Main(props) {
         </main>
     );
 }
+
+Main.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+};
 
 export default Main;

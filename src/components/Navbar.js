@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 
 function Navbar(props) {
     return (
@@ -26,5 +27,10 @@ function Navbar(props) {
        </nav>
    );
 }
+
+Navbar.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+    toggleDarkMode: PropTypes.func.isRequired,
+};
 
 export default Navbar;
