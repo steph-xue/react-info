@@ -76,6 +76,8 @@ node --version
 npm --version
 ```
 
+<br>
+
 **1. Clone the repository**
 
 This downloads a copy of the project to your computer and moves you into the project folder.
