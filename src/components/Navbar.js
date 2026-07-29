@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+// Displays the logo and the light/dark mode toggle
 function Navbar(props) {
     return (
         <nav 

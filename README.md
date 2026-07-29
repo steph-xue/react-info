@@ -24,7 +24,7 @@
 
 ## Overview
 
-This project presents a collection of facts about React, including its original release date, creator, and role in modern web development, while allowing users to switch between light and dark mode at any time. Built with React, JavaScript, HTML, and CSS using Vite, the interface includes a navigation bar and main content area, with the theme toggle managed through shared React state so the selected mode is applied consistently across the application.
+This project presents a collection of facts about React, including its original release date, creator, and role in modern web development, while allowing users to switch between light and dark mode at any time. Built with React, JavaScript, HTML, and CSS using Vite as the build tool, the interface includes a navigation bar and main content area, with the theme toggle managed through shared React state so the selected mode is applied consistently across the application.
 
 <br>
 
@@ -80,7 +80,7 @@ npm --version
 
 <br>
 
-**1. Clone the repository**
+**1. Clone the Repository**
 
 This downloads a copy of the project to your computer and moves you into the project folder.
 ```bash
@@ -88,14 +88,14 @@ git clone https://github.com/steph-xue/react-info.git
 cd react-info
 ```
 
-**2. Install the dependencies**
+**2. Install the Dependencies**
 
-This installs React and everything else the project needs to run.
+This installs all dependencies the project needs to run.
 ```bash
 npm install
 ```
 
-**3. Start the development server**
+**3. Start the Development Server**
 
 This runs the application locally with Vite.
 ```bash

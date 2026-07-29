@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+// Displays the list of React fun facts
 function Main(props) {
     return (
         <main className={props.darkMode ? "dark" : ""}>

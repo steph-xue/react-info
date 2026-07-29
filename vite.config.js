@@ -5,8 +5,11 @@ import * as esbuild from "esbuild";
 
 
 const sourceJSPattern = /\/src\/.*\.js$/;
+
+// Creates a Rollup plugin that transforms matching .js files as JSX
 const rollupPlugin = (matchers) => ({
   name: "js-in-jsx",
+  // Transforms the file contents when its id matches one of the given patterns
   load(id) {
     if (matchers.some(matcher => matcher.test(id))) {
       const file = fs.readFileSync(id, { encoding: "utf-8" });
