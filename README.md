@@ -31,7 +31,7 @@ This project presents a collection of facts about React, including its original 
 ## Features
 
 ### Fun Facts Display
-The main content area displays a short heading and a list of facts about React, including when it was released, who created it, and how widely it is used today. A toggle switch in the navigation bar lets users switch the entire page between light and dark mode, updating both the navigation bar and the main content area at the same time for a consistent look across the page.
+The main content area displays a short heading and a list of facts about React, including when it was released, who created it, and how widely it is used today. A toggle switch in the navigation bar lets users switch the entire page between light and dark mode, updating both the navigation bar and the main content area for a consistent look across the page.
 
 <p align="center"><b>Light Mode</b></p>
 <p align="center"><img src="docs/screenshots/light-mode.png?raw=true" alt="Light Mode" width="700"></p>
