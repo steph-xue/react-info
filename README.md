@@ -57,7 +57,7 @@ The application is built around two components, a navigation bar and a main cont
 <br>
 
 ## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
+Several enhancements are planned to improve the functionality of the application:
 - Additional categories of facts beyond React itself
 - Saving the user's mode preference so it persists between visits
 - Smooth transition animations when switching between light and dark mode
